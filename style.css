@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+}
+body{
+    background-color: #212529 ;
+}
+
+
+.navbar{
+    margin: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    font-family: "Poppins",sans-serif;
+    font-weight: 600;
+    padding-top: 10px;
+    display: inline-block;
+    margin: 0 10px;
+    font-size: large;
+}
+.navbar ul a{
+    text-decoration: noen;
+    color: white;
+
+    &:hover{
+        color: #afd7ff;
+    }
+
+}
+.navbar h2 {
+    font-family: "Playwrite GB S";
+    font-size: xx-large;
+    text-align: start;
+    color: #afd7ff;
+}
+
+.navbar button{
+    background-color: hsl(210, 100%, 84%);
+    border-radius: 7px;
+    border: none;
+    font-family: "Playwrite GB S";
+    font-weight: bolder;
+    font-size: medium;
+
+    &:hover {
+        background-color: hsl(210, 100%, 90%);
+    }
+}
+
+.main{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main h2 {
+    color: white;
+    font-family: "Poppins",sans-serif;
+    font-weight: 400;
+}
+.main h2 span {
+    
+    color: #afd7ff;
+}
+
+.main .title {
+    margin-top: 15px;
+    font-family: "Poppins",sans-serif;
+    font-weight: 500;
+    color: #fdfdfd;
+}
+
+.buttons{
+    margin-top: 250px;
+    padding: 0 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+}
+
+.buttons .item{
+    background: hsla(215, 18%, 26%, 0.277);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 0 30px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.buttons .item:hover{
+    border-color: #afd7ff;
+}
+
+.buttons .item .icon{
+    width: 46px;
+    height: 46px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.buttons .item:hover .icon{
+    background-color: #afd7ff;
+}
+
+.buttons .item .icon i{
+    font-size: 30px;
+}
+
+.buttons .item .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons .item .info h3{
+    color: #afd7ff;
+    font-size: 28px;
+}
+
+
+
+
+
+
+.divider {
+    width: 100%;
+    height: 4px;
+    background-color: #afd7ff00;
+    margin: 55px 0;
+}
+
+.aboutMe {
+    display: inline-block;
+    margin-left: 50px;
+    border: 0px solid #fff;
+    width: 35vw;
+    padding: 50px;
+    border-radius: 20px;
+    background-color: hsla(185, 18%, 26%, 0.277);
+    height: 354px;
+}
+
+.aboutMe h2 {
+    color: white;
+    font-family: "Poppins",sans-serif;
+    font-weight: 600;
+}
+
+.aboutMe p {
+    color: rgb(193, 193, 193);
+    font-family: "Poppins",sans-serif;
+    font-weight: 400;
+    margin-right: 40px;
+}
+
+#dotapluslvl {
+    float: left;
+}
+
+.heroes {
+    display: inline-block;
+    margin-left: 50px;
+    border: 0px solid #fff;
+    width: 35vw;
+    padding: 50px;
+    border-radius: 20px;
+    background-color: hsla(40, 18%, 26%, 0.277);
+    justify-content:flex-start;
+    max-height: 150px;
+    position: absolute;
+    top: 991px;
+}
+
+#hero-img {
+    position: relative;
+    left: -100px;
+    top: -200px;
+    margin: 0;
+
+    &.brooda {
+        position: relative;
+        top: 12%;
+        width: 250px;
+        left: -45px;
+        scale: 1.1;
+        
+    }
+}
+
+
+.heroInfo {
+    position: absolute;
+    top: 12%;
+    width: 250px;
+    left: 51%;
+    background-color: rgba(255, 255, 255, 0.053);
+    padding: 10px;
+    border-radius: 7px;
+}
+.heroInfo h2 {
+    color: white;
+    font-family: "Poppins",sans-serif;
+    padding-top: -501px;
+}
+
+.heroInfo p {
+    color: rgb(193, 193, 193);
+    font-family: "Poppins",sans-serif;
+    padding-top: -501px;
+}
+
+.learned {
+    text-align: center;
+
+}
+
+.learned h1 {
+    color: white;
+    font-family: "Poppins",sans-serif;
+    font-weight: 600;
+}
+
+.learned p {
+    color: rgb(193, 193, 193);
+    font-family: "Poppins",sans-serif;
+    font-weight: 400;
+    margin-right: 40px;
+    padding: 10px;
+}
+
+.iconsO {
+    background-color: rgba(255, 255, 255, 0.423);
+    padding: 15px;
+    border-radius: 10px;
+    margin-right: 20px;  
+}
+
+.iconsO box-icon {
+    align-items: center;
+    scale: 2;
+    padding-top: 6px;
+    justify-content: center;
+}
+
+
+footer .ovalFooter {
+    background-color:hsl(210, 18%, 31%);
+    width: 700px;
+    margin: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 25px;
+    border-radius: 17px;
+    margin-left: 350px;
+}
+
+.infoFooter {
+    position: relative;
+    top: 70px;
+}
+
+.ovalFooter h1 {
+    color: white;
+    font-family: "Poppins",sans-serif;
+    font-weight: 600;
+}
+
+.ovalFooter p {
+    color: rgb(193, 193, 193);
+    font-family: "Poppins",sans-serif;
+    font-weight: 400;
+    margin-right: 20px;
+    padding: 10px;
+}
+.ovalFooter button {
+    border-radius: 17px;
+    width: 150px;
+    cursor: pointer;
+    border-color: transparent;
+    background-color: rgba(243, 243, 243, 0.486);
+
+    &:hover {
+        background-color: #201f1f4d;
+        color: white;
+    }
+}
+
+.cols {
+    background-color: #0202026b;
+    height: 250px;
+}
+
+
+.cols h1 {
+    color: #afd7ff;
+    font-family: "Playwrite GB S";
+    font-weight: 600;
+    padding-top: 90px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+
+
+}
+
+footer .cols{
+    display: flex;
+    align-items: start;
+    text-align: center;
+}
+
+
+footer .cols .links-col{
+    flex: 3;
+}
+
+
+
+footer .cols .links-col a{
+    display: block;
+    text-decoration: none;
+    color: #7b7b7b;
+    font-size: 14px;
+    line-height: 26px;
+    transition: color 0.3s ease;
+}
+
+footer .cols .links-col a:hover{
+    color: #95e5ff;
+}
+
+.links-col {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    margin-right: -100px;
+    max-width: 600px;
+}
+
+
+
+/* Projects page*/
+
+
+.buttonsProj{
+    margin-top: 250px;
+    padding: 0 50px;
+    flex-wrap: nowrap;
+    gap: 24px;
+    width: 200px;
+}
+
+.buttonsProj .item{
+    background: hsla(215, 18%, 26%, 0.277);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 0 90px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 80px;
+}
+
+.buttonsProj .item:hover{
+    border-color: #afd7ff;
+}
+
+#buttonsProj2 {
+    position: absolute;
+    top: 245px;
+    left: 250px;
+}
+
+
+.buttonsProj .item .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttonsProj .item .info h3{
+    color: #afd7ff;
+    font-size: 28px;
+}
+
+
+.buttonsProj .item > i{
+    color: #fff;
+    font-size: 30px;
+    transition: color 0.3s ease;
+}
+
+.buttonsProj .item:hover > i{
+    color: hsl(206, 94%, 65%);
+}
+.displayProj {
+    position: absolute;
+    margin-left: 50px;
+    border: 0px solid #fff;
+    width: 650px;
+    padding: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.314) ;
+    border-radius: 20px;
+    background-color: hsla(185, 18%, 26%, 0.277);
+    height: 540px;
+    left: 600px;
+    top: 573px;
+}
+.displayProj h1 {
+    color: rgba(255, 255, 255, 0.066);
+    font-family: "Poppins",sans-serif;
+    font-weight: 600;
+    font-size:90px
+}
+                    /* projects css */
+
+
