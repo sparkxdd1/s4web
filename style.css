@@ -453,7 +453,7 @@ footer .cols .links-col a:hover{
 
 .contactBtns .item{
     background: hsla(215, 18%, 26%, 0.277);
-    display: flex;
+    display: inline-block;
     justify-content: space-between;
     align-items: center;
     height: 100px;
