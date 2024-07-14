@@ -496,7 +496,7 @@ footer .cols .links-col a:hover{
     margin-top: 100px;
 }
 .displayMail h1 {
-    color: white;
+    color: rgba(255, 255, 255, 0.66);
     font-family: "Poppins",sans-serif;
     font-weight: 600;
     font-size:90px
