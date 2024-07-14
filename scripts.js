@@ -65,3 +65,16 @@ function projectOne(){
 
 function projectTwo(){
 }
+
+
+
+
+function contactBtn1(){
+    window.open("https://t.me/jsparkwebdev")
+}
+function contactBtn3(){
+    window.open("https://www.instagram.com/zxcspark/")
+}
+function contactBtn4(){
+    window.open("https://github.com/sparkxdd1")
+}
