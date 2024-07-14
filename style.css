@@ -438,3 +438,126 @@ footer .cols .links-col a:hover{
                     /* projects css */
 
 
+
+
+
+/* CONTACT PAGE   contactBtns    */
+
+.contactBtns{
+    margin-top: 250px;
+    padding: 0 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+}
+
+.contactBtns .item{
+    background: hsla(215, 18%, 26%, 0.277);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 0 30px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.contactBtns .item:hover{
+    border-color: #afd7ff;
+}
+
+
+
+.contactBtns .item .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactBtns .item .info h3{
+    color: #afd7ff;
+    font-size: 28px;
+}
+
+.displayMail {
+    position: relative;
+    margin-left: 50px;
+    border: 0px solid #fff;
+    width: 650px;
+    padding: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.314) ;
+    border-radius: 20px;
+    background-color: hsla(185, 18%, 26%, 0.277);
+    height: 540px;
+    left: 10px;
+    margin-top: 100px;
+}
+.displayMail h1 {
+    color: rgba(255, 255, 255, 0.066);
+    font-family: "Poppins",sans-serif;
+    font-weight: 600;
+    font-size:90px
+}
+
+#emailForm {
+    margin-top: 50px;
+    padding: 0 60px;
+    flex-wrap: nowrap;
+    gap: 24px;
+    width: 400px;
+    height: 60px;
+    border-radius: 9px;
+    background-color:#21282929;
+    border-color: rgb(135, 213, 255);
+    color: white;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    
+}
+
+#mailText {
+    margin-top: 20px;
+    padding: 0 60px;
+    flex-wrap: nowrap;
+    gap: 24px;
+    width: 530px;
+    height: 120px;
+    border-radius: 9px;
+    background-color:#21282929;
+    border-color: rgb(135, 213, 255);
+    color: white;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+
+#sendBtn {
+    margin-left: 12px;
+    flex-wrap: nowrap;
+    width: 110px;
+    height: 60PX;
+    border-radius: 9px;
+    background-color:#21282929;
+    border-color: rgb(135, 213, 255);
+    color: white;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    font-weight: bold;
+
+
+    &:hover {
+        background-color: #95e4ff76;
+        color: black;
+        border-color: rgb(25, 22, 48);
+        font-weight: bold;
+    }
+}
+#imgArc {
+    width: 600px;
+    position: relative;
+    left: 850px;
+    margin-top: -600px;
+}
